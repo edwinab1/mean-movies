@@ -1,10 +1,10 @@
 # Movies
 
-![Angular](./screenshots/movies.png)
+![Angular](./Screenshots/movies.png)
 
 #API
 
-![API](./screenshots/API.png)
+![API](./Screenshots/API.png)
 
 
 ## REST API
