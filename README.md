@@ -1,10 +1,10 @@
 # Movies
 
-![Angular](./movies/movies.png)
+![Angular](./screenshots/movies.png)
 
 #API
 
-![API](./movies/API.png)
+![API](./screenshots/API.png)
 
 
 ## REST API
@@ -32,4 +32,3 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `npm start` for a dev server. 
 
-# mean-movies
