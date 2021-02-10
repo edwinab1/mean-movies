@@ -1,6 +1,6 @@
-# Movies
+# Movies MEAN
 
-## FRONT END - ANGULAR
+## FRONT END - ANGULAR 11
 ![Angular](./Screenshots/movies.png)
 
 ## API - NODEJS
