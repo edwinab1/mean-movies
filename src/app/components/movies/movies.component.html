@@ -1,0 +1,37 @@
+<app-common></app-common>
+
+<div class="wrapper">
+
+    <h4>Top Movies</h4>
+    <div class="card-columns">
+
+        <ng-container *ngFor="let item of movies">
+            <div class="card border-warning text-white bg-dark" (mouseenter)="hoverMovie(item)">
+                <div class="card-header text-center font-weight-bold">{{item.title}}</div>
+
+                <img class="img-fluid image-movie" src="{{item.image | apiimage }}">
+
+                <div class="card-footer text-center">{{item.year}}</div>
+
+                <!-- <div class="row">
+                        <div class="col-4">
+                            <img class="img-fluid" src="{{item.image | apiimage }}">
+                        </div>
+                        <div class="col-8">
+                            <h4>{{item.title}}</h4>
+                            <p>{{item.sinopsis}}</p>
+                            <p><b class="text-warning">Duration: </b>{{item.duration}} mins.</p>
+                            <p><b class="text-warning">Year: </b>{{item.year}}</p>
+                            <p><b class="text-warning">Country: </b>{{item.country}}</p>
+                            <p><b class="text-warning">Director:</b>{{item.director}}</p>
+                            <p><b class="text-warning">Actors: </b>{{item.actors}}</p>
+
+                        </div>
+
+                    </div> -->
+            </div>
+
+        </ng-container>
+    </div>
+
+</div>
