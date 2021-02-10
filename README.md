@@ -1,8 +1,9 @@
 # Movies
 
+# FRONT END - ANGULAR
 ![Angular](./Screenshots/movies.png)
 
-#API
+# API - NODEJS
 
 ![API](./Screenshots/API.png)
 
